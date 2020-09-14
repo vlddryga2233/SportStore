@@ -2,7 +2,6 @@ C:\Users\vlddr\source\repos\SportStore\SportStore\bin\Debug\netcoreapp3.1\appset
 C:\Users\vlddr\source\repos\SportStore\SportStore\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\vlddr\source\repos\SportStore\SportStore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\vlddr\source\repos\SportStore\SportStore\bin\Debug\netcoreapp3.1\SportStore.exe
-C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.csprojAssemblyReference.cache
 C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.AssemblyInfoInputs.cache
 C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.AssemblyInfo.cs
 C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.RazorAssemblyInfo.cache
@@ -75,3 +74,4 @@ C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportS
 C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vlddr\source\repos\SportStore\SportStore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
+C:\Users\vlddr\source\repos\SportStore\SportStore\obj\Debug\netcoreapp3.1\SportStore.csprojAssemblyReference.cache

@@ -12,6 +12,6 @@ namespace SportStore.Models.ViewModel
         public int CurrentPage { get; set; }
 
         public int TotalPages =>
-            (int)Math.Ceiling((decimal)TotalItems / TotalPages);
+            (int)Math.Ceiling((decimal)TotalItems / ItemsPerPage);
     }
 }

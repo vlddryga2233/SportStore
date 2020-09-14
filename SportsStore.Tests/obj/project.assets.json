@@ -8168,9 +8168,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
-      "projectName": "SportsStore.Tests",
-      "projectPath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportsStore.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportStore.Tests.csproj",
+      "projectName": "SportStore.Tests",
+      "projectPath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportStore.Tests.csproj",
       "packagesPath": "C:\\Users\\vlddr\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
