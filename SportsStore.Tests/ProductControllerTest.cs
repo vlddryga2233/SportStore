@@ -30,7 +30,7 @@ namespace SportStore.Tests
 
 
             ProductListVIewModel result =
-                controller.List(2).ViewData.Model as ProductListVIewModel;
+                controller.List(null,2).ViewData.Model as ProductListVIewModel;
 
             Product[] prodArray = result.Products.ToArray();
             Assert.True(prodArray.Length == 2);
@@ -57,13 +57,13 @@ namespace SportStore.Tests
             new ProductController(mock.Object) { pagesize = 3 };
             // Act
             ProductListVIewModel result =
-            controller.List(2).ViewData.Model as ProductListVIewModel;
+            controller.List(null,2).ViewData.Model as ProductListVIewModel;
             // Assert
             PageInfo pageInfo = result.PageInfo;
             Assert.Equal(2, pageInfo.CurrentPage);
             Assert.Equal(3, pageInfo.ItemsPerPage);
             Assert.Equal(5, pageInfo.TotalItems);
             Assert.Equal(2, pageInfo.TotalPages);
-        }
+        }      
     }
 }

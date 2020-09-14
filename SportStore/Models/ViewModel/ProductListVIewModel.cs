@@ -10,5 +10,6 @@ namespace SportStore.Models.ViewModel
         public IEnumerable<Product> Products { get; set; }
 
         public PageInfo PageInfo { get; set; }
+        public string CurrentCategory { get; set; }
     }
 }
