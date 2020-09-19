@@ -13,57 +13,44 @@ namespace SportStore.Controllers
     public class CartController : Controller
     {
         private IProductRepository repository;
+        private Cart cart;
 
-        public CartController(IProductRepository product)
+        public CartController(IProductRepository product,Cart cart)
         {
             repository = product;
+            this.cart = cart;
         }
 
         public ViewResult Index(string returnUrl)
         {
             return View(new CartIndexViewModel
             {
-                Cart = GetCart(),
+                Cart = cart,
                 ReturnUrl = returnUrl
             }) ;
         }
 
         public RedirectToActionResult AddToCart(int Id,string returnUrl)
         {
-            Product product = repository.Products
+            Product product = repository.Products   
                 .FirstOrDefault(p => p.Id == Id);
 
             if (product !=null)
             {
-                Cart cart = GetCart();
-                cart.AddItem(product, 1);
-                SaveCart(cart);
+                cart.AddItem(product, 1);               
             }
             return RedirectToAction("Index", new { returnUrl });
         }
 
-        public RedirectToActionResult RemoveFromCart(int prodId, string returnUrl)
+        public RedirectToActionResult RemoveFromCart(int Id, string returnUrl)
         {
             Product product = repository.Products
-                .FirstOrDefault(p => p.Id == prodId);
+                .FirstOrDefault(p => p.Id == Id);
             if (product!=null)
             {
-                Cart cart = GetCart();
                 cart.RemoveLine(product);
-                SaveCart(cart);
             }
             return RedirectToAction("Index", new { returnUrl });
-        }
-
-        private Cart GetCart()
-        {
-            Cart cart = HttpContext.Session.GetJson<Cart>("Cart") ?? new Cart();
-            return cart;
-        }
-        private void SaveCart(Cart cart)
-        {
-            HttpContext.Session.SetJson("Cart", cart);
-        }
-
+        }      
     }
 }
