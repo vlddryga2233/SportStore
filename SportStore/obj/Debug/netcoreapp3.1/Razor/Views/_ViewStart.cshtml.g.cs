@@ -28,13 +28,20 @@ using SportStore.Models;
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\vlddr\source\repos\SportStore\SportStore\Views\_ViewImports.cshtml"
+using SportStore.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\vlddr\source\repos\SportStore\SportStore\Views\_ViewImports.cshtml"
 using SportStore.Models.ViewModel;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7aac4469cd2a21a84b0433065b2aa0dbf120eb3e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"81c6b16f3eb77d8b7fe9af19497745e29d07597a", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

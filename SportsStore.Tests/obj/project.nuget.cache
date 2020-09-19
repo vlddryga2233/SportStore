@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ep5PGurF4fYn09Dic7PM3yxkxd5VErVu/xm+frNwMd52GOddGkwl7DaJ0YwP3JSjKJBJ0RaQvZGRZ2c3zAnsew==",
+  "dgSpecHash": "ksfDLk6sYIWaeKQ6G69tQJRvzi+GrbB4lO6CNhZmj2L3o3e7753eZL2XI1OwZ7Kc5UrV6qsZo0SWNGEphcnzfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportStore.Tests.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\moq\\4.14.5\\moq.4.14.5.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\vlddr\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\vlddr\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

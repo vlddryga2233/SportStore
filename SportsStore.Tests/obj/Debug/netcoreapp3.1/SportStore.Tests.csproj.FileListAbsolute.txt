@@ -137,7 +137,6 @@ C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\bin\Debug\netcoreapp3.1
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.csprojAssemblyReference.cache
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.AssemblyInfoInputs.cache
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.AssemblyInfo.cs
-C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.csproj.CoreCompileInputs.cache
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.csproj.CopyComplete
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.dll
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.pdb
