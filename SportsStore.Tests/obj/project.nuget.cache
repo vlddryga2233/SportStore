@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ksfDLk6sYIWaeKQ6G69tQJRvzi+GrbB4lO6CNhZmj2L3o3e7753eZL2XI1OwZ7Kc5UrV6qsZo0SWNGEphcnzfw==",
+  "dgSpecHash": "Ri08ZTyEvZv1szI1bVYZ6OG+bNOHGZiXJzySYOoZd+bnTeKf+5Fx4N8gnP2D7e2zPT8VWZgNKkEg9/hHpRT7Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportsStore.Tests\\SportStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlddr\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\vlddr\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

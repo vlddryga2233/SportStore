@@ -6,10 +6,16 @@
     <title>SportStore</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/898a97fdb1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar navbar-dark bg-dark"  role="navigation">
-        <a class="navbar-brand" href="#">SPORT STORE</a>
+    <div class="navbar navbar-dark bg-dark" role="navigation">
+        <div class="row">
+            <a class="col navbar-brand" href="#">SPORT STORE</a>
+        </div>
+        <div class="col-4 text-right">
+            @await Component.InvokeAsync("CartSummary")
+        </div>
     </div>
     <div class="row m-1 p-1">
         <div id="categories" class="col-3">

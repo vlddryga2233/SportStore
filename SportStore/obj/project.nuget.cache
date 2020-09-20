@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1tYpzO8O4jWL3huHnM6O+UW9oC/wZBKfdp1SCFIaX6XhJ0+UDXok6rUwEKKg/frAJt5oxoIY82I+k/uLAfa96w==",
+  "dgSpecHash": "fYWE6J3ukzTDe38OC7FoGw/NzFl9Vfyz5kfouX44L5rnUAARgoEsqYju9wUZeGfYQdWCeTX5vaRF+z+V32pUQA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlddr\\source\\repos\\SportStore\\SportStore\\SportStore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vlddr\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\vlddr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

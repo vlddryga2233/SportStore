@@ -141,3 +141,4 @@ C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.dll
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.pdb
 C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.genruntimeconfig.cache
+C:\Users\vlddr\source\repos\SportStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportStore.Tests.csproj.CoreCompileInputs.cache
