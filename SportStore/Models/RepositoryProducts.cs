@@ -14,6 +14,19 @@ namespace SportStore.Models
         }
         public IQueryable<Product> Products => context.Products;
 
+        public Product DeleteProduct(int id)
+        {
+            Product dbEntry=
+                context.Products.FirstOrDefault(p => p.Id == id);
+
+            if (dbEntry != null)
+            {
+                context.Products.Remove(dbEntry);
+                context.SaveChanges();
+            }
+            return dbEntry;
+        }
+
         public void SaveProduct(Product product)
         {
             if (product.Id == 0) 
@@ -24,7 +37,7 @@ namespace SportStore.Models
             {
                 Product dbEntry = context.Products
                     .FirstOrDefault(p => p.Id == product.Id);
-                if (dbEntry == null)
+                if (dbEntry != null)
                 {
                     dbEntry.Name = product.Name;
                     dbEntry.Category = product.Category;
