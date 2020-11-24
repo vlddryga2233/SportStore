@@ -13,6 +13,9 @@
         <div class="row">
             <a class="col navbar-brand" href="#">SPORT STORE</a>
         </div>
+        <div class="col-5 text-right">
+            <a class="btn btn-primary" asp-action="Login" asp-controller="Account">Login</a>
+        </div>
         <div class="col-4 text-right">
             @await Component.InvokeAsync("CartSummary")
         </div>

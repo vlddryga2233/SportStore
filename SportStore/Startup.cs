@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using SportStore.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 
 namespace SportStore
 {
@@ -27,8 +28,18 @@ namespace SportStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ProductContext>(option =>
-            option.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddDbContext<ProductContext>(options =>
+            options.UseSqlServer(
+                Configuration["Data:SportStoreProducts:ConnectionString"]));
+
+            services.AddDbContext<AppIdentityDbContext>(options =>
+            options.UseSqlServer(
+                Configuration["Data:SportStoreIdentity:ConnectionString"]));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+            .AddEntityFrameworkStores<AppIdentityDbContext>()
+            .AddDefaultTokenProviders();
+
             services.AddTransient<IProductRepository, RepositoryProducts>();
             services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -56,6 +67,7 @@ namespace SportStore
             app.UseRouting();
             app.UseAuthorization();
             app.UseSession();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
@@ -95,6 +107,7 @@ namespace SportStore
                 endpoints.MapControllerRoute(name: null, pattern: "{controller}/{action}/{id?}");
             });
             SeedData.EnsurePopulated(app);
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }
