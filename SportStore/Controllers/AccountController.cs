@@ -46,7 +46,8 @@ namespace SportStore.Controllers
                     if ((await signInManager.PasswordSignInAsync(user,
                         loginModel.Password, false, false)).Succeeded)
                     {
-                          return Redirect(loginModel?.ReturnUrl ?? "/Admin/Index");
+                        // return Redirect(loginModel?.ReturnUrl ?? "~/Admin/Index");
+                        return RedirectToAction("Index", "Admin");
                                             
                         
                     }

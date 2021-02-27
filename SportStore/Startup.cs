@@ -28,12 +28,12 @@ namespace SportStore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ProductContext>(options =>
-            options.UseSqlServer(
+            services.AddDbContextPool<ProductContext>(options =>
+            options.UseMySql(
                 Configuration["Data:SportStoreProducts:ConnectionString"]));
 
             services.AddDbContext<AppIdentityDbContext>(options =>
-            options.UseSqlServer(
+            options.UseMySql(
                 Configuration["Data:SportStoreIdentity:ConnectionString"]));
 
             services.AddIdentity<IdentityUser, IdentityRole>()

@@ -13,7 +13,8 @@ namespace SportStore.Models
 
         public ProductContext(DbContextOptions<ProductContext> options):base(options)
         {
-            
+            Database.EnsureCreated();
         }
+        
     }
 }
